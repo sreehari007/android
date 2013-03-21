@@ -361,30 +361,25 @@
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
 
-  <!-- AOKP -->
-  <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" revision="jb-mr1" />
-
   <!-- PA -->
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jellybean" />
-  <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" revision="42b5fadf6443a46aab965eac5f58cf54c19c8bea" />
+  <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" revision="jellybean" />
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
 
-  <!-- PAC -->
-  <project path="android" name="PAC-man/android" />
-  <project path="frameworks/base" name="PAC-man/android_frameworks_base" />
+  <!-- PA-semc -->
+  <project path="android" name="PA-semc/android" />
+  <project path="frameworks/base" name="PA-semc/android_frameworks_base" />
   <project path="packages/apps/Contacts" name="PAC-man/android_packages_apps_Contacts" />
   <project path="packages/apps/Phone" name="PAC-man/android_packages_apps_Phone" />
-  <project path="packages/apps/ROMControl" name="PAC-man/packages_apps_ROMControl" />
-  <project path="packages/apps/Settings" name="PAC-man/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="PA-semc/android_packages_apps_Settings" />
   <project path="packages/apps/Trebuchet" name="PAC-man/android_packages_apps_Trebuchet" />
   <project path="packages/providers/ContactsProvider" name="PAC-man/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="PAC-man/android_system_core" />
-  <project path="vendor/pac" name="PAC-man/android_vendor_pac" />
   <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" />
   <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" />
 
-  <project path="pac" name="PAC-man/pac" >
-    <copyfile dest="build-pac.sh" src="build.sh"/>
+  <project path="pa" name="PA-semc/pa" >
+    <copyfile dest="rom-build.sh" src="build.sh"/>
   </project>
 
 </manifest>
