@@ -17,7 +17,3 @@ Then to build:
     ./build-pac.sh <device_name>
     example: ./rom-build.sh mango
 
-You need help while compiling for your Device?
-You get them in our official IRC Channel:
-
-[IRC Channel: #pac-rom](http://webchat.freenode.net/?channels=pac-rom)
