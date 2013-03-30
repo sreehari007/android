@@ -365,7 +365,7 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
 
   <!-- PA-semc -->
-  <project path="vendor/pa" name="PA-semc/android_vendor_pa" revision="jellybean" />
+  <project path="vendor/pa" name="PA-semc/android_vendor_pa" />
   <project path="vendor/cm" name="PA-semc/android_vendor_cm" />
   <project path="android" name="PA-semc/android" />
   <project path="frameworks/base" name="PA-semc/android_frameworks_base" revision="pa" />
