@@ -370,7 +370,7 @@
   <project path="android" name="PA-semc/android" />
   <project path="frameworks/base" name="PA-semc/android_frameworks_base" revision="pa" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
+  <project path="packages/apps/Phone" name="PA-semc/android_packages_apps_Phone" />
   <project path="packages/apps/Settings" name="PA-semc/android_packages_apps_Settings" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
