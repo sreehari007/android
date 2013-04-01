@@ -377,6 +377,7 @@
   <project path="system/core" name="PA-semc/android_system_core" />
   <project path="packages/apps/Camera" name="PAC-man/android_packages_apps_Camera" />
   <project path="packages/apps/Gallery2" name="PAC-man/android_packages_apps_Gallery2" />
+  <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" revision="jellybean" />
 
   <project path="pa" name="PA-semc/pa" >
     <copyfile dest="rom-build.sh" src="build.sh"/>
